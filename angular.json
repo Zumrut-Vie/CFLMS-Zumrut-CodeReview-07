@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "CodeReview7"
+    }
+  },
+  "defaultProject": "CodeReview7",
+  "cli": {
+    "analytics": false
+  }
 }

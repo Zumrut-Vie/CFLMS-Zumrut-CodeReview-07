@@ -1,0 +1,25 @@
+
+form{
+	margin-top: 2em;
+	display: flex;	
+}
+
+input{
+	padding-right: 5em;
+}
+.blog{
+	 margin-top: 5em;
+}
+
+.form1{
+	justify-content: space-between;
+}
+
+#button{
+  background-color: white;
+  color: black;
+  border: 2px solid blue;
+  padding-left: 4em;
+  
+}
+

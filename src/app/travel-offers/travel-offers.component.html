@@ -1,0 +1,19 @@
+
+
+
+<div class="container-fluid wrapper">
+        <div class="row" id="performance">
+<div class="card" style="width: 16rem;" *ngFor="let x of offers; index as offersId">
+ 
+  <div class="card-body">
+   <p><strong>{{ x.destination }}</strong></p>
+   <p><img src="{{x.teaser}}"></p>
+<p class="desc">{{ x.description }}</p>
+<p class="date">{{x.starting}}</p>
+<p class="duration">{{x.duration}}</p>
+<p class="price">{{x.price}}</p> 
+<button (click)="addToCart(offers)">Buy</button>
+  </div>
+</div>
+</div>
+</div>

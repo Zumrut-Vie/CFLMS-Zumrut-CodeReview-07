@@ -1,0 +1,30 @@
+img {
+	width: 13em;
+	
+
+}
+
+#performance{
+	justify-content: space-around;
+	margin-top: 5em;
+
+}
+
+.desc{
+	font-weight: lighter;
+	font-style: helvetica;
+	background-color: azure;
+}
+
+.date{
+	background-color: #F0F8FF;
+}
+
+.duration{
+	background-color: #FFFAF0;
+}
+
+.price{
+	background-color: #FFF0F5;
+}
+
